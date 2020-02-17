@@ -1,0 +1,56 @@
+{
+  "list": [
+    {
+      "header": true,
+      "title": "Base",
+      "value": "",
+      "image": ""
+    },
+    {
+      "header": false,
+      "title": "Currency",
+      "value": "USD",
+      "image": "ic_star"
+    },{
+      "header": true,
+      "title": "Converter",
+      "value": "",
+      "image": ""
+    },
+    {
+      "header": false,
+      "title": "From",
+      "value": "USD",
+      "image": "ic_exchange"
+    },
+    {
+      "header": false,
+      "title": "To",
+      "value": "TRY",
+      "image": "ic_exchange"
+    },{
+      "header": true,
+      "title": "Widget",
+      "value": "",
+      "image": ""
+    },
+    {
+      "header": false,
+      "title": "Widget Base",
+      "value": "USD",
+      "image": "ic_widget"
+    },
+    {
+      "header": false,
+      "title": "Widget First",
+      "value": "TRY",
+      "image": "ic_widget"
+    },
+    {
+      "header": false,
+      "title": "Widget Second",
+      "value": "EUR",
+      "image": "ic_widget"
+    }
+  ]
+}

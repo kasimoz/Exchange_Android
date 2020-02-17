@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F2F2F7</color>
+    <color name="colorPrimaryDark">#F2F2F7</color>
+    <color name="colorAccent">#DE5248</color>
+    <color name="colorRed">#DE5248</color>
+    <color name="colorOrange">#FFA800</color>
+    <color name="colorBlue">#5AC8FA</color>
+
+    <color name="colorNormalChipBackground">#F2F2F7</color>
+    <color name="colorSelectedChipBackground">#DE5248</color>
+    <color name="colorChipRipple">#DE5248</color>
+    <color name="colorNormalChipText">#000000</color>
+    <color name="colorSelectedChipText">#000000</color>
+</resources>

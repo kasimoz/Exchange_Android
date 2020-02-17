@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/fromIcon"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                app:srcCompat="@drawable/united_states" />
+
+            <EditText
+                android:id="@+id/amount"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/edittext_background"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/fromText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                android:gravity="center"
+                android:text="EUR - €"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/exchange"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center"
+                android:background="@drawable/exchange_button" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/toIcon"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                app:srcCompat="@drawable/turkey" />
+
+            <EditText
+                android:id="@+id/result"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/edittext_background"
+                android:ems="10"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/toText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                android:gravity="center"
+                android:text="TRY - ₺"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chartChipGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:background="@drawable/chip_group_background"
+        app:chipSpacingHorizontal="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/chart1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:selectionRequired="true"
+        app:singleSelection="true">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/lastWeek"
+            style="@style/CustomChipChoice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/last_week"
+            android:textSize="18sp"
+            app:chipCornerRadius="8dp"
+            app:chipMinHeight="36dp"
+            app:chipMinTouchTargetSize="36dp"
+            app:chipStrokeColor="@color/colorNormalChipBackground"
+            app:chipStrokeWidth="2dp"
+            app:textEndPadding="8dp"
+            app:textStartPadding="8dp" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/lastMonth"
+            style="@style/CustomChipChoice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/last_month"
+            android:textSize="18sp"
+            app:chipCornerRadius="8dp"
+            app:chipMinHeight="36dp"
+            app:chipMinTouchTargetSize="36dp"
+            app:chipStrokeColor="@color/colorNormalChipBackground"
+            app:chipStrokeWidth="2dp"
+            app:textEndPadding="8dp"
+            app:textStartPadding="8dp" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/lastYear"
+            style="@style/CustomChipChoice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/last_year"
+            android:textSize="18sp"
+            app:chipCornerRadius="8dp"
+            app:chipMinHeight="36dp"
+            app:chipMinTouchTargetSize="36dp"
+            app:chipStrokeColor="@color/colorNormalChipBackground"
+            app:chipStrokeWidth="2dp"
+            app:textEndPadding="8dp"
+            app:textStartPadding="8dp" />
+
+    </com.google.android.material.chip.ChipGroup>
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

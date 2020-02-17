@@ -1,0 +1,169 @@
+{
+  "list": {
+    "KRW": {
+      "Image": "south_korea",
+      "Name": "South Korean Won",
+      "Symbol": "₩"
+    },
+    "EUR": {
+      "Image": "european",
+      "Name": "Euro",
+      "Symbol": "€"
+    },
+    "CAD": {
+      "Image": "canada",
+      "Name": "Canadian Dollar",
+      "Symbol": "$"
+    },
+    "IDR": {
+      "Image": "indonesia",
+      "Name": "Indonesian Rupiah",
+      "Symbol": "Rp"
+    },
+    "ISK": {
+      "Image": "iceland",
+      "Name": "Icelandic Króna",
+      "Symbol": "kr"
+    },
+    "USD": {
+      "Image": "united_states",
+      "Name": "United States Dollar",
+      "Symbol": "$"
+    },
+    "AUD": {
+      "Image": "australia",
+      "Name": "Australian Dollar",
+      "Symbol": "$"
+    },
+    "CZK": {
+      "Image": "czech_republic",
+      "Name": "Czech Republic Koruna",
+      "Symbol": "Kč"
+    },
+    "GBP": {
+      "Image": "united_kingdom",
+      "Name": "British Pound Sterling",
+      "Symbol": "£"
+    },
+    "JPY": {
+      "Image": "japan",
+      "Name": "Japanese Yen",
+      "Symbol": "¥"
+    },
+    "THB": {
+      "Image": "thailand",
+      "Name": "Thai Baht",
+      "Symbol": "฿"
+    },
+    "HKD": {
+      "Image": "hong_kong",
+      "Name": "Hong Kong Dollar",
+      "Symbol": "元"
+    },
+    "NZD": {
+      "Image": "new_zealand",
+      "Name": "New Zealand Dollar",
+      "Symbol": "$"
+    },
+    "PLN": {
+      "Image": "poland",
+      "Name": "Polish Zloty",
+      "Symbol": "zł "
+    },
+    "RON": {
+      "Image": "romania",
+      "Name": "Romanian Leu",
+      "Symbol": "L"
+    },
+    "PHP": {
+      "Image": "philippines",
+      "Name": "Philippine Peso",
+      "Symbol": "₱"
+    },
+    "DKK": {
+      "Image": "denmark",
+      "Name": "Danish Krone",
+      "Symbol": "kr."
+    },
+    "RUB": {
+      "Image": "russia",
+      "Name": "Russian Ruble",
+      "Symbol": "₽"
+    },
+    "HUF": {
+      "Image": "hungary",
+      "Name": "Hungarian Forint",
+      "Symbol": "Ft"
+    },
+    "BGN": {
+      "Image": "bulgaria",
+      "Name": "Bulgarian Lev",
+      "Symbol": "лв"
+    },
+    "SEK": {
+      "Image": "sweden",
+      "Name": "Swedish Krona",
+      "Symbol": "kr"
+    },
+    "CHF": {
+      "Image": "switzerland",
+      "Name": "Swiss Franc",
+      "Symbol": "₣"
+    },
+    "INR": {
+      "Image": "india",
+      "Name": "Indian Rupee",
+      "Symbol": "₹"
+    },
+    "MXN": {
+      "Image": "mexico",
+      "Name": "Mexican Peso",
+      "Symbol": "$"
+    },
+    "BRL": {
+      "Image": "brazil",
+      "Name": "Brazilian Real",
+      "Symbol": "R$"
+    },
+    "ZAR": {
+      "Image": "south_africa",
+      "Name": "South African Rand",
+      "Symbol": "R"
+    },
+    "CNY": {
+      "Image": "china",
+      "Name": "Chinese Yuan",
+      "Symbol": "¥"
+    },
+    "NOK": {
+      "Image": "norway",
+      "Name": "Norwegian Krone",
+      "Symbol": "kr"
+    },
+    "TRY": {
+      "Image": "turkey",
+      "Name": "Turkish Lira",
+      "Symbol": "₺"
+    },
+    "SGD": {
+      "Image": "singapore",
+      "Name": "Singapore Dollar",
+      "Symbol": "$"
+    },
+    "HRK": {
+      "Image": "croatia",
+      "Name": "Croatian Kuna",
+      "Symbol": "kn"
+    },
+    "MYR": {
+      "Image": "malaysia",
+      "Name": "Malaysian Ringgit",
+      "Symbol": "RM"
+    },
+    "ILS": {
+      "Image": "israel",
+      "Name": "Israeli New Sheqel",
+      "Symbol": "₪"
+    }
+  }
+}
