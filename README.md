@@ -32,10 +32,10 @@ Exchange Rates, Exchange Converter
 
 ### App
 
-![](https://github.com/kasimoz/ExchangeAndroid/blob/master/exchange_app.gif)
+![](https://github.com/kasimoz/Exchange_Android/blob/master/exchange_app.gif)
 
 ### Widget
 
-![](https://github.com/kasimoz/ExchangeAndroid/blob/master/screenshot_widget.jpg)
+![](https://github.com/kasimoz/Exchange_Android/blob/master/screenshot_widget.jpg)
 
 
